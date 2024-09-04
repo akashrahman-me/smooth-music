@@ -4,9 +4,9 @@ from lib.Volume import Volume
 # from lib.PlotLib import PlotLib
 import threading
 
-INITIAL_VOLUME = 24
-ACTIVITY_VOLUME = 10
-INACTIVITY_VOLUME = 24
+INITIAL_VOLUME = 32
+ACTIVITY_VOLUME = 12
+INACTIVITY_VOLUME = 32
 VOICE_NOISE = 0.0175
 
 class InactivityMonitor(Volume):
